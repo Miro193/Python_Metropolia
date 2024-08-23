@@ -10,4 +10,4 @@ keskiarvo = summa / 3
 
 print(f"Lukujen summa on: {summa}")
 print(f"Lukujen tulo on: {tulo}")
-print(f"Lukujen keskiarvo on: {float(keskiarvo):.2}")
+print(f"Lukujen keskiarvo on: {keskiarvo:.1f}")
