@@ -5,7 +5,7 @@
 #  allekkain mielivaltaisessa järjestyksessä. Käytä joukkotietorakennetta nimien tallentamiseen.
 
 
-nimet = {'Mikko', 'Matias'}
+nimet = set()
 nimi = input('Anna nimi: ')
 
 while nimi != '':
