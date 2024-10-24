@@ -52,10 +52,3 @@ while matka <= 1000:
 for k in kilpa_autot[:]:
 	print("------------------------------")
 	print(f"  rekisterinumero = {k.rekisteritunnus}\n  huippunopeus = {k.huippunopeus} km/h\n  hetkellinennopeus = {k.hetkellinen_nopeus} km/h\n  kuljettu matka = {k.kuljettu_matka} km")
-
-
-# uusi_auto.kiihdytaa(60)
-# print(f"Auton nopeus = {uusi_auto.hetkellinen_nopeus} km/h")
-
-# uusi_auto.kulje(1.5)
-# print(f"Auton tämän hetken kuljettu matka on {uusi_auto.kuljettu_matka} km")
