@@ -17,12 +17,12 @@ class Auto:
 		self.kuljettu_matka = kuljettu_matka
 
 	def kiihdytaa(self, nopeuden_muutos):
-		if nopeuden_muutos > 0 and nopeuden_muutos <= self.huippunopeus and self.hetkellinen_nopeus <= self.huippunopeus:
-			self.hetkellinen_nopeus += nopeuden_muutos
-		
-		else:
+		self.hetkellinen_nopeus += nopeuden_muutos
+		if self.hetkellinen_nopeus < 0:
 			self.hetkellinen_nopeus = 0
-		return
+		if self.hetkellinen_nopeus > self.huippunopeus:
+			self.hetkellinen_nopeus = self.huippunopeus
+
 		
 uusi_auto = Auto("ABC-123", 142)
 
