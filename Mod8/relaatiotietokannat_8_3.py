@@ -31,6 +31,9 @@ icao_koodi_2 = input('Anna toisen lentokentän ICAO-koodi:')
 
 kordinaatit_1 = hae_lentoketta_icao_koodilla(icao_koodi_1)
 kordinaatit_2 = hae_lentoketta_icao_koodilla(icao_koodi_2)
+print(kordinaatit_1)
+print(kordinaatit_2)
+
 if kordinaatit_1 is not None and len(kordinaatit_1) > 0 and kordinaatit_2 is not None and len(kordinaatit_2) > 0:
     lentokentta_1 = kordinaatit_1[0][0]
     lentokentta_2 = kordinaatit_2[0][0]

@@ -22,14 +22,14 @@ class Hissi:
 
 	def kerros_ylos(self):
 		self.nykyinen_kerros += 1
-		print(f"Kerros: {self.nykyinen_kerros}")
+		print(f"Hissi kerroksessa: {self.nykyinen_kerros}")
 
 	def kerros_alas(self):
 		self.nykyinen_kerros -= 1
-		print(f"Kerros: {self.nykyinen_kerros}")
+		print(f"Hissi kerroksessa: {self.nykyinen_kerros}")
 
 	
-uusi_hissi = Hissi(1,9)
+# uusi_hissi = Hissi(1,9)
 # print(vars(uusi_hissi))
-uusi_hissi.siirry_kerrokseen(5)
+# uusi_hissi.siirry_kerrokseen(5)
 # print(vars(uusi_hissi))
